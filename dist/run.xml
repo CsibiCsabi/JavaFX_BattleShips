@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\codes\Java\FX\almakompót\torpedo_firsttry\dist\torpedo_firsttry-1.0-SNAPSHOT-jar-with-dependencies.jar</jar>
+  <outfile>C:\codes\Java\FX\almakompót\torpedo_firsttry\dist\battle_ships.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>./jre</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>21</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Djava.library.path=&quot;.\lib&quot; --module-path &quot;.\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base</opt>
+  </jre>
+</launch4jConfig>
